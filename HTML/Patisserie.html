@@ -1,1 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5>
+    <title>Patisserie</title>
+    </script>
+</head>
 
+<body>
+    <header id="encabezado">
+        <h1>"Louis Patisserie"</h1>
+    </header>
+      
+        <nav id="navegacion">
+            <ul class="navbar">
+                <li><a href="#inicio">Carta</a></li>
+                <li><a href="#platillos">Pedidos Cliente</a></li>
+                <li><a href="#Pedido">Pedidos Pastelero</a></li>
+                <li><a href="#cierre">Recursos restantes</a></li>
+            </ul>
+        </nav>
+
+        <div id="lema">
+            <a name="inicio"></a>
+            <p>Louis Patisserie se caracteriza por ofrecer los mejores postres disponibles con nuestra gran variedad quedara satifecho, por la gran calidad quedara feliz.
+        </div>
+
+        <section id="principal">
+            <article id="portada"  align = "left"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4PLqKgQFqXiS6WblMGFukT4zrl9bULIP8Kw&usqp=CAU" WIDTH=200 HEIGHT=200></article>
+
+            <div id=mostrarPlatillos  align="left">
+                <h2>CARTA</h2>
+                <table class="default">
+
+                    <tr>
+                  
+                      <td>
+                        <b>Pastel 1</b><br>
+                        <img src="https://images.aws.nestle.recipes/original/5de1dd03b8c146404176f7389d4a64fd_PASTEL_INVIERNO_150.jpg" WIDTH=200 HEIGHT=200>
+                        <br>
+                        <label for="Sabores">Selecciona un sabor:</label>
+                            <select name="sabores" id="sabores">
+                            <option value="chocolate">Chocolate</option>
+                            <option value="Vainilla">Vainilla</option>
+                            <option value="Fresa">Fresa</option>
+                            </select>
+                        <p>Precio: 50$</p>
+                        <br>
+                        <label for="Adornos">Selecciona un adorno:</label>
+                            <select name="Adornos" id="adornos">
+                                <option value="flores">Flores</option>
+                                <option value="Frutas">Frutas</option>
+                                <option value="Chocolateadorno">Chocolate</option>
+                            </select>
+                            <p>Precio: 65$</p>
+                      </td>
+                  
+                      <td>
+                        <b>Pastel 2</b><br>
+                        <img src="https://media.istockphoto.com/photos/white-cake-with-glaze-on-a-white-background-picture-id1048120004?b=1&k=20&m=1048120004&s=170667a&w=0&h=TS_tEtHQFcvXtZ8Aq9NosINfczmoogxcJqni56PzXwY=" WIDTH=200 HEIGHT=200>
+                        <br>
+                        <label for="Sabores">Selecciona un sabor:</label>
+                            <select name="sabores" id="sabores">
+                            <option value="chocolate">Chocolate</option>
+                            <option value="Vainilla">Vainilla</option>
+                            <option value="Fresa">Fresa</option>
+                            </select>
+                            <p>Precio: 75$</p>
+                        <br>
+                        <label for="Adornos">Selecciona un adorno:</label>
+                            <select name="Adornos" id="adornos">
+                                <option value="flores">Flores</option>
+                                <option value="Frutas">Frutas</option>
+                                <option value="Chocolateadorno">Chocolate</option>
+                            </select>
+                            <p>Precio: 55$</p>
+                      </td>
+                      </td>
+                  
+                      <td>
+                        <b>Pastel 3</b><br>
+                        <img src="https://i.pinimg.com/564x/de/c4/fc/dec4fc80a55371f569cc2edd0a2b8f11.jpg" WIDTH=200 HEIGHT=200>
+                        <br>
+                        <label for="Sabores">Selecciona un sabor:</label>
+                            <select name="sabores" id="sabores">
+                            <option value="chocolate">Chocolate</option>
+                            <option value="Vainilla">Vainilla</option>
+                            <option value="Fresa">Fresa</option>
+                            </select>
+                            <p>Precio: 50$</p>
+                            <br>
+                        <label for="Adornos">Selecciona un adorno:</label>
+                            <select name="Adornos" id="adornos">
+                                <option value="flores">Flores</option>
+                                <option value="Frutas">Frutas</option>
+                                <option value="Chocolateadorno">Chocolate</option>
+                            </select>
+                            <p>Precio: 50$</p>
+                      </td>
+                      </td>
+                  
+                    </tr>
+                  
+                  
+                  </table>
+                </div>
+
+            <a name="platillos"></a> 
+            <article id="forms">
+                <h2>PEDIR PASTEL</h2>
+                  
+                    <table>
+                        <tr><td><label>Pastel</label></td> <td><input id="id" type="number"></td></tr>
+                        <tr><td><label>Nombre</label></td> <td><input id="nombre" type="text"></td></tr>
+                        <tr><td><label>Telefono</label></td> <td><input id="precio" type="number"></td></tr>   
+                        <tr><td><label>Correo Electronico</label></td> <td><input id="tipoComida" type="text"></td></tr>   
+                        <tr><td><label>Sabores</label></td> <td><input id="id" type="text"></td></tr> 
+                        <tr><td><label>Adornos</label></td> <td><input id="id" type="text"></td></tr>    
+                    </table>
+
+                    <fieldset style="width: 25%;border-color: black;">
+                        <legend style="color: #490808; text-align: center;">Descripción General</legend>
+                        <textarea id="descripcion" type="text" rows=7% cols="45%"></textarea>
+                    </fieldset>
+
+                    <button type="button"><b>PEDIR PASTEL</button>
+            </article>
+
+
+            <a name="pedidos"></a>
+            <article id="pedidos">
+                <div id=mostrarPlatillos  align="center">
+                    <h2>pedidos</h2>
+                    <table class="default">
+    
+                        <tr>
+                      
+                          <td>
+                            <table>
+                                <tr><td><label>Pastel</label></td> <td>Pastel 1</td></tr>
+                                <tr><td><label>Nombre</label></td> <td>Karo Lina</td></tr>
+                                <tr><td><label>Telefono</label></td> <td>123456789</td></tr>   
+                                <tr><td><label>Correo Electronico</label></td> <td>cara@troncoso.com</td></tr>   
+                                <tr><td><label>Sabores</label></td> <td>Chocolate</td></tr> 
+                                <tr><td><label>Adornos</label></td> <td>none</td></tr>    
+                            </table>
+        
+                            <fieldset style="width: 25%;border-color: black;">
+                                <legend style="color: #490808; text-align: center;">Descripción General</legend>
+                                <textarea id="descripcion" type="text" rows=7% cols="45%"></textarea>
+                            </fieldset>
+        
+                            <button type="button"><b>Mandar Pedido</button>
+                          </td>
+                      
+                          <td>
+                            <table>
+                                <tr><td><label>Pastel</label></td> <td>Pastel 1</td></tr>
+                                <tr><td><label>Nombre</label></td> <td>Karo Lina</td></tr>
+                                <tr><td><label>Telefono</label></td> <td>123456789</td></tr>   
+                                <tr><td><label>Correo Electronico</label></td> <td>cara@troncoso.com</td></tr>   
+                                <tr><td><label>Sabores</label></td> <td>Chocolate</td></tr> 
+                                <tr><td><label>Adornos</label></td> <td>none</td></tr>    
+                            </table>
+        
+                            <fieldset style="width: 25%;border-color: black;">
+                                <legend style="color: #490808; text-align: center;">Descripción General</legend>
+                                <textarea id="descripcion" type="text" rows=7% cols="45%"></textarea>
+                            </fieldset>
+        
+                            <button type="button"><b>Mandar Pedido</button>
+                          </td>
+                      
+                          <td>
+                            <table>
+                                <tr><td><label>Pastel</label></td> <td>Pastel 1</td></tr>
+                                <tr><td><label>Nombre</label></td> <td>Karo Lina</td></tr>
+                                <tr><td><label>Telefono</label></td> <td>123456789</td></tr>   
+                                <tr><td><label>Correo Electronico</label></td> <td>cara@troncoso.com</td></tr>   
+                                <tr><td><label>Sabores</label></td> <td>Chocolate</td></tr> 
+                                <tr><td><label>Adornos</label></td> <td>none</td></tr>    
+                            </table>
+        
+                            <fieldset style="width: 25%;border-color: black;">
+                                <legend style="color: #490808; text-align: center;">Descripción General</legend>
+                                <textarea id="descripcion" type="text" rows=7% cols="45%"></textarea>
+                            </fieldset>
+        
+                            <button type="button"><b>Mandar Pedido</button>
+                          </td>
+                      
+                        </tr>
+                      
+                      
+                      </table>
+                    </div>
+            </article>
+
+      
+            <a name="cierre"></a>
+
+            <p></p>
+        </section>
+    <footer id="pie">
+        Derechos Reservados &copy; 2022  
+        Louis Patisserie Calle delOlvido #7 Tel.2345678910  
+        <br>
+        Horarios de atención:
+        Lunes a Viernes 9:00-17:00
+        Sabados y domingos de 10:00-15:00
+        <footer>Actualizado 06/03/2022</footer>
+    </footer>
+</body>
+
+</html>
